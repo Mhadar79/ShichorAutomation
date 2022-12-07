@@ -1,0 +1,1 @@
+{"uuid":"365fd7e8-b243-44e4-9813-526a0ecb786e","name":"tests.InspireMeTest","children":["3ea0eae7-d4ad-4e90-ae62-3beda0870ba8"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1670222014188,"stop":1670222044664}],"afters":[],"start":1670222014125,"stop":1670222062243}

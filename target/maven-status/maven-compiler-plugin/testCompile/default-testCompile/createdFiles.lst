@@ -1,0 +1,15 @@
+pageobjects\CreateTripPage.class
+pageobjects\InterestsPage.class
+tests\BaseTest.class
+tests\InspireMeTest.class
+tests\PlaningFlowTest.class
+tests\LoginTest.class
+pageobjects\BasePage.class
+pageobjects\DateEngine.class
+pageobjects\HomePage.class
+pageobjects\PersonalizedPage.class
+pageobjects\LogInPage.class
+tests\MyTripsTest.class
+pageobjects\DestinationsPage.class
+pageobjects\MyTripPage.class
+tests\DestinationTest.class

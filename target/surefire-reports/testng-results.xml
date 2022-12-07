@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="285924" started-at="2022-12-05T13:00:45 IST" finished-at="2022-12-05T13:05:31 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="285924" started-at="2022-12-05T13:00:45 IST" finished-at="2022-12-05T13:05:31 IST">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@1cf2fed4]" name="setup" is-config="true" duration-ms="27234" started-at="2022-12-05T13:03:24 IST" finished-at="2022-12-05T13:03:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_login()[pri:0, instance:tests.LoginTest@1cf2fed4]" name="tc01_login" duration-ms="997" started-at="2022-12-05T13:03:51 IST" finished-at="2022-12-05T13:03:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@1cf2fed4]" name="failedTest" is-config="true" duration-ms="439" started-at="2022-12-05T13:03:52 IST" finished-at="2022-12-05T13:03:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_login status=SUCCESS method=LoginTest.tc01_login()[pri:0, instance:tests.LoginTest@1cf2fed4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_login()[pri:0, instance:tests.LoginTest@1cf2fed4]" name="tc02_login" duration-ms="633" started-at="2022-12-05T13:03:52 IST" finished-at="2022-12-05T13:03:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_login -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@1cf2fed4]" name="failedTest" is-config="true" duration-ms="487" started-at="2022-12-05T13:03:53 IST" finished-at="2022-12-05T13:03:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_login status=SUCCESS method=LoginTest.tc02_login()[pri:0, instance:tests.LoginTest@1cf2fed4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_login()[pri:0, instance:tests.LoginTest@1cf2fed4]" name="tc03_login" duration-ms="3031" started-at="2022-12-05T13:03:54 IST" finished-at="2022-12-05T13:03:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_login -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@1cf2fed4]" name="failedTest" is-config="true" duration-ms="457" started-at="2022-12-05T13:03:57 IST" finished-at="2022-12-05T13:03:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_login status=SUCCESS method=LoginTest.tc03_login()[pri:0, instance:tests.LoginTest@1cf2fed4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc04_login()[pri:0, instance:tests.LoginTest@1cf2fed4]" name="tc04_login" duration-ms="2699" started-at="2022-12-05T13:03:57 IST" finished-at="2022-12-05T13:04:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_login -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@1cf2fed4]" name="failedTest" is-config="true" duration-ms="643" started-at="2022-12-05T13:04:00 IST" finished-at="2022-12-05T13:04:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_login status=SUCCESS method=LoginTest.tc04_login()[pri:0, instance:tests.LoginTest@1cf2fed4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.DestinationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.DestinationTest@514eedd8]" name="setup" is-config="true" duration-ms="28410" started-at="2022-12-05T13:01:37 IST" finished-at="2022-12-05T13:02:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_destinationTest()[pri:0, instance:tests.DestinationTest@514eedd8]" name="tc01_destinationTest" duration-ms="3470" started-at="2022-12-05T13:02:06 IST" finished-at="2022-12-05T13:02:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_destinationTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.DestinationTest@514eedd8]" name="failedTest" is-config="true" duration-ms="316" started-at="2022-12-05T13:02:09 IST" finished-at="2022-12-05T13:02:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_destinationTest status=SUCCESS method=DestinationTest.tc01_destinationTest()[pri:0, instance:tests.DestinationTest@514eedd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_destinationTest()[pri:0, instance:tests.DestinationTest@514eedd8]" name="tc02_destinationTest" duration-ms="2343" started-at="2022-12-05T13:02:10 IST" finished-at="2022-12-05T13:02:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_destinationTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.DestinationTest@514eedd8]" name="failedTest" is-config="true" duration-ms="317" started-at="2022-12-05T13:02:12 IST" finished-at="2022-12-05T13:02:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_destinationTest status=SUCCESS method=DestinationTest.tc02_destinationTest()[pri:0, instance:tests.DestinationTest@514eedd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+      </class> <!-- tests.DestinationTest -->
+      <class name="tests.MyTripsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.MyTripsTest@6970140a]" name="setup" is-config="true" duration-ms="36049" started-at="2022-12-05T13:02:12 IST" finished-at="2022-12-05T13:02:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_MyTripsTest()[pri:0, instance:tests.MyTripsTest@6970140a]" name="tc01_MyTripsTest" duration-ms="15245" started-at="2022-12-05T13:02:48 IST" finished-at="2022-12-05T13:03:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_MyTripsTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.MyTripsTest@6970140a]" name="failedTest" is-config="true" duration-ms="209" started-at="2022-12-05T13:03:04 IST" finished-at="2022-12-05T13:03:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_MyTripsTest status=SUCCESS method=MyTripsTest.tc01_MyTripsTest()[pri:0, instance:tests.MyTripsTest@6970140a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_MyTripsTest()[pri:0, instance:tests.MyTripsTest@6970140a]" name="tc02_MyTripsTest" duration-ms="7577" started-at="2022-12-05T13:03:04 IST" finished-at="2022-12-05T13:03:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_MyTripsTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.MyTripsTest@6970140a]" name="failedTest" is-config="true" duration-ms="207" started-at="2022-12-05T13:03:11 IST" finished-at="2022-12-05T13:03:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_MyTripsTest status=SUCCESS method=MyTripsTest.tc02_MyTripsTest()[pri:0, instance:tests.MyTripsTest@6970140a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_MyTripsTest()[pri:0, instance:tests.MyTripsTest@6970140a]" name="tc03_MyTripsTest" duration-ms="5220" started-at="2022-12-05T13:03:12 IST" finished-at="2022-12-05T13:03:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_MyTripsTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.MyTripsTest@6970140a]" name="failedTest" is-config="true" duration-ms="178" started-at="2022-12-05T13:03:17 IST" finished-at="2022-12-05T13:03:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_MyTripsTest status=SUCCESS method=MyTripsTest.tc03_MyTripsTest()[pri:0, instance:tests.MyTripsTest@6970140a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc04_MyTripsTest()[pri:0, instance:tests.MyTripsTest@6970140a]" name="tc04_MyTripsTest" duration-ms="6632" started-at="2022-12-05T13:03:17 IST" finished-at="2022-12-05T13:03:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_MyTripsTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.MyTripsTest@6970140a]" name="failedTest" is-config="true" duration-ms="167" started-at="2022-12-05T13:03:24 IST" finished-at="2022-12-05T13:03:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_MyTripsTest status=SUCCESS method=MyTripsTest.tc04_MyTripsTest()[pri:0, instance:tests.MyTripsTest@6970140a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+      </class> <!-- tests.MyTripsTest -->
+      <class name="tests.PlaningFlowTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="setup" is-config="true" duration-ms="26155" started-at="2022-12-05T13:04:00 IST" finished-at="2022-12-05T13:04:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_PlaningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="tc01_PlaningTest" duration-ms="1424" started-at="2022-12-05T13:04:27 IST" finished-at="2022-12-05T13:04:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_PlaningTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="failedTest" is-config="true" duration-ms="2793" started-at="2022-12-05T13:04:28 IST" finished-at="2022-12-05T13:04:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_PlaningTest status=SUCCESS method=PlaningFlowTest.tc01_PlaningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="tc02_planningTest" duration-ms="1728" started-at="2022-12-05T13:04:31 IST" finished-at="2022-12-05T13:04:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_planningTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="failedTest" is-config="true" duration-ms="651" started-at="2022-12-05T13:04:33 IST" finished-at="2022-12-05T13:04:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_planningTest status=SUCCESS method=PlaningFlowTest.tc02_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="tc03_planningTest" duration-ms="5875" started-at="2022-12-05T13:04:33 IST" finished-at="2022-12-05T13:04:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_planningTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="failedTest" is-config="true" duration-ms="194" started-at="2022-12-05T13:04:39 IST" finished-at="2022-12-05T13:04:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_planningTest status=SUCCESS method=PlaningFlowTest.tc03_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc04_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="tc04_planningTest" duration-ms="2158" started-at="2022-12-05T13:04:39 IST" finished-at="2022-12-05T13:04:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_planningTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="failedTest" is-config="true" duration-ms="237" started-at="2022-12-05T13:04:41 IST" finished-at="2022-12-05T13:04:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_planningTest status=SUCCESS method=PlaningFlowTest.tc04_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc05_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="tc05_planningTest" duration-ms="20835" started-at="2022-12-05T13:04:42 IST" finished-at="2022-12-05T13:05:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_planningTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="failedTest" is-config="true" duration-ms="339" started-at="2022-12-05T13:05:03 IST" finished-at="2022-12-05T13:05:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc05_planningTest status=SUCCESS method=PlaningFlowTest.tc05_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc06_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="tc06_planningTest" duration-ms="2782" started-at="2022-12-05T13:05:03 IST" finished-at="2022-12-05T13:05:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_planningTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="failedTest" is-config="true" duration-ms="418" started-at="2022-12-05T13:05:06 IST" finished-at="2022-12-05T13:05:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc06_planningTest status=SUCCESS method=PlaningFlowTest.tc06_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc07_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="tc07_planningTest" duration-ms="2866" started-at="2022-12-05T13:05:06 IST" finished-at="2022-12-05T13:05:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_planningTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="failedTest" is-config="true" duration-ms="422" started-at="2022-12-05T13:05:09 IST" finished-at="2022-12-05T13:05:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc07_planningTest status=SUCCESS method=PlaningFlowTest.tc07_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc08_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="tc08_planningTest" duration-ms="10315" started-at="2022-12-05T13:05:09 IST" finished-at="2022-12-05T13:05:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_planningTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="failedTest" is-config="true" duration-ms="436" started-at="2022-12-05T13:05:20 IST" finished-at="2022-12-05T13:05:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc08_planningTest status=SUCCESS method=PlaningFlowTest.tc08_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc09_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="tc09_planningTest" duration-ms="10434" started-at="2022-12-05T13:05:20 IST" finished-at="2022-12-05T13:05:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09_planningTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.PlaningFlowTest@3af4e0bf]" name="failedTest" is-config="true" duration-ms="167" started-at="2022-12-05T13:05:31 IST" finished-at="2022-12-05T13:05:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc09_planningTest status=SUCCESS method=PlaningFlowTest.tc09_planningTest()[pri:0, instance:tests.PlaningFlowTest@3af4e0bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+      </class> <!-- tests.PlaningFlowTest -->
+      <class name="tests.InspireMeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.InspireMeTest@56102e1c]" name="setup" is-config="true" duration-ms="29556" started-at="2022-12-05T13:00:45 IST" finished-at="2022-12-05T13:01:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_InspireMeTest()[pri:0, instance:tests.InspireMeTest@56102e1c]" name="tc01_InspireMeTest" duration-ms="5602" started-at="2022-12-05T13:01:14 IST" finished-at="2022-12-05T13:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_InspireMeTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.InspireMeTest@56102e1c]" name="failedTest" is-config="true" duration-ms="198" started-at="2022-12-05T13:01:20 IST" finished-at="2022-12-05T13:01:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_InspireMeTest status=SUCCESS method=InspireMeTest.tc01_InspireMeTest()[pri:0, instance:tests.InspireMeTest@56102e1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_InspireMeTest()[pri:0, instance:tests.InspireMeTest@56102e1c]" name="tc02_InspireMeTest" duration-ms="16864" started-at="2022-12-05T13:01:20 IST" finished-at="2022-12-05T13:01:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_InspireMeTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.InspireMeTest@56102e1c]" name="failedTest" is-config="true" duration-ms="210" started-at="2022-12-05T13:01:37 IST" finished-at="2022-12-05T13:01:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_InspireMeTest status=SUCCESS method=InspireMeTest.tc02_InspireMeTest()[pri:0, instance:tests.InspireMeTest@56102e1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+      </class> <!-- tests.InspireMeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
