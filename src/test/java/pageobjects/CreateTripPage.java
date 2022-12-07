@@ -171,36 +171,6 @@ public class CreateTripPage extends BasePage{
 		
 	}
 	
-	public void setStart(String day) {
-		sleep(1500);
-		click(next_month);
-		List<WebElement> list = leftDaysContainer;
-		for (WebElement el : list) {
-			//	System.out.println(el.getText());
-				if (getText(el).equalsIgnoreCase(day)) {
-					Actions actions = new Actions(driver); 
-					actions.moveToElement(el).clickAndHold(el).build().perform();
-					break;
-				}
-			}
-	}
-	public void setEnd(String day) {
-		sleep(3000);
-		List<WebElement> list = driver.findElements(By.cssSelector("[class=\"flatpickr-days\"] :nth-child(2) > [class=\"flatpickr-day endRange\"]"));
-		for (WebElement el : list) {
-			//	System.out.println(el.getText());
-				if (getText(el).equalsIgnoreCase(day)) {
-					Actions actions = new Actions(driver); 
-					actions.moveToElement(el).build().perform();
-					sleep(1000);
-					click(el);
-					break;
-				}
-			}
-		
-		
-		
-	}
 	
 	public void chooseDates( String day, String day2) {
 		click(next_month);
