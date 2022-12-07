@@ -39,7 +39,6 @@ public class LogInPage extends BasePage{
 	}
 	
 	public void login(String user, String password) {
-		waitForLoad(logInBtn);
 		click(logInBtn);
 		fillText(emailField, user);
 		fillText(passwordField, password);

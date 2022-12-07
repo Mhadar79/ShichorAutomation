@@ -15,8 +15,10 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pageobjects.HomePage;
+import utils.Utils;
 
 public class BaseTest {
 WebDriver driver;
@@ -27,7 +29,8 @@ WebDriver driver;
         options.addArguments("--ignore-certificate-errors");
 		driver = WebDriverManager.chromedriver().capabilities(options).avoidShutdownHook().create();
 		driver.manage().window().maximize();
-		driver.get("https://www.shichor.co.il/en");
+		Utils u = new Utils();
+		driver.get(u.readProperty("url"));
 		Robot robot = new Robot();
 		for (int i = 0; i < 4; i++) {
 			robot.keyPress(KeyEvent.VK_CONTROL);

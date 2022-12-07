@@ -4,10 +4,10 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="tests.InspireMeTest"/>
-      <class name="pageobjects.CreateTripPage"/>
       <class name="tests.DestinationTest"/>
-      <class name="tests.BaseTest"/>
+      <class name="pageobjects.CreateTripPage"/>
       <class name="tests.MyTripsTest"/>
+      <class name="tests.BaseTest"/>
       <class name="tests.LoginTest"/>
       <class name="tests.PlaningFlowTest"/>
     </classes>

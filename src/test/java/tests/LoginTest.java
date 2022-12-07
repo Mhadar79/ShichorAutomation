@@ -3,6 +3,7 @@ package tests;
 
 
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import pageobjects.HomePage;
@@ -27,11 +28,11 @@ public class LoginTest extends BaseTest{
 		String expected = "Please enter a valid email address";
 		Assert.assertEquals(actual, expected, "Error message is not valid");
 	}
-	@Test
-	public void tc03_login() {
+	@Test(dataProvider = "getData")
+	public void tc03_login (String user, String password) {
 		LogInPage lp = new LogInPage(driver);
 		lp.closeLogIn();
-		lp.login("mh18979@gmail.com", "dsfsdf");
+		lp.login(user, password);
 		String actual = lp.errorDetails();
 		String expected = "Unable to log in with provided credentials.";
 		Assert.assertEquals(actual, expected, "Error message is not valid");
@@ -47,6 +48,15 @@ public class LoginTest extends BaseTest{
 		Assert.assertEquals(actual, expected, "Login failed");
 	}
 	
+	@DataProvider
+	public Object[][] getData(){
+		Object[][] myData = {
+				{"mh18979@gmail.com", "dsfsdf"},
+				{"mh18979@gmail.co.il","M18h09#79"},
+				{"mh18979@gmail.com", "dsfsdf"},
+		};
+		return myData;
+	}
 	
 	
 }
